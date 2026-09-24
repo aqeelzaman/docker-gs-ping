@@ -1,0 +1,65 @@
+# Compiled binaries
+/docker-gs-ping
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+bin/
+build/
+dist/
+
+# Test and profiling output
+*.test
+*.out
+coverage.*
+*.prof
+*.pprof
+
+# Go workspace and vendored dependencies
+go.work
+go.work.sum
+vendor/
+
+# Docker image exports and archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.gz
+*.7z
+*.rar
+
+# Disk images, dumps and other large artifacts
+*.iso
+*.img
+*.dmg
+*.vmdk
+*.qcow2
+*.dump
+*.sql
+*.sqlite
+*.db
+core
+core.*
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# Environment and secrets
+.env
+.env.*
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

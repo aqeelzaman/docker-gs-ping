@@ -1,0 +1,44 @@
+# Version control and CI
+.git
+.gitignore
+.github
+
+# Docker files themselves
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+compose*.yml
+
+# Docs and license
+README.md
+LICENSE
+*.md
+
+# Build output and binaries
+docker-gs-ping
+bin/
+build/
+dist/
+vendor/
+*.exe
+*.test
+*.out
+*.prof
+
+# Archives and large artifacts
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.log
+
+# Environment and secrets
+.env
+.env.*
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*~
